@@ -4,8 +4,8 @@ defmodule Islands.PlayerId.MixProject do
   def project do
     [
       app: :islands_player_id,
-      version: "0.1.4",
-      elixir: "~> 1.10",
+      version: "0.1.5",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       name: "Islands Player ID",
       source_url: source_url(),
@@ -44,11 +44,11 @@ defmodule Islands.PlayerId.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mix_tasks,
-       github: "RaymondLoranger/mix_tasks", only: :dev, runtime: false},
-      {:ex_doc, "~> 0.22", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0", only: :dev, runtime: false},
-      {:islands_config, "~> 0.1", runtime: false}
+      {:ex_doc, "~> 0.22", only: :dev, runtime: false},
+      {:islands_config, "~> 0.1", runtime: false},
+      {:mix_tasks,
+       github: "RaymondLoranger/mix_tasks", only: :dev, runtime: false}
     ]
   end
 end
