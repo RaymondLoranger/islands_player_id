@@ -1,6 +1,6 @@
 # Islands Player ID
 
-Defines the `player ID` type for the _Game of Islands_.
+Defines the [`player ID`][player_if] type for the [Game of Islands][readme].
 
 ## Installation
 
@@ -19,3 +19,5 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/islands_player_id](https://hexdocs.pm/islands_player_id).
 
+[player_id]: https://hexdocs.pm/islands_player_id/Islands.PlayerID.html#t:t/0
+[readme]: https://github.com/RaymondLoranger/islands_vue_client#readme
