@@ -1,6 +1,6 @@
 # Islands Player ID
 
-Defines the [`player ID`][player_if] type for the [Game of Islands][readme].
+Defines the [`player ID`][player_id] type for the [Game of Islands][readme].
 
 ## Installation
 
