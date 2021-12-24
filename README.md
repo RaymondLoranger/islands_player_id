@@ -1,6 +1,6 @@
 # Islands Player ID
 
-Defines the _player ID_ type for the _Game of Islands_.
+Defines the player ID type for the _Game of Islands_.
 
 ## Installation
 
